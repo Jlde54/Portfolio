@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Projet ArgentBank">
+        <meta name="author" content="J-L DANGOTTE">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+        <title>ArgentBank</title>
+	</head>
+    <body>
+        <!-- *******-->
+        <!-- Header -->
+        <!-- ****** -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-logo-name">
+                    <div class="header-logo">
+                        <img src="../images/Jean-Luc_DANGOTTE_picture_494x494.jpg" alt="Jean-Luc DANGOTTE picture" class="header-logo-img">
+                    </div>
+                    <span class="header-name">Jean-Luc DANGOTTE</span>
+                </div>
+                <div class="header-nav">
+                    <ul class="header-nav-links">
+                        <li>
+                            <a href="../index.html" class="header-nav-link"> Accueil </a>
+                        </li>
+                        <li>
+                            <a href="#overview" class="header-nav-link"> Vue d'ensemble </a>
+                        </li>
+                        <li>
+                            <a href="#tools" class="header-nav-link"> Outils </a>
+                        </li>
+                    </ul>
+                    <div class="header-nav-ham-menu-close">
+                        <img src="../images/icons8-hamburger-menu-50.png" alt="hamburger menu" class="header-nav-ham-menu">
+                        <img src="../images/icons8-close-50.png" alt="hamburger menu close" class="header-nav-ham-close display-none">
+                    </div>
+                </div>
+            </div>
+            <!-- ***************-->
+            <!-- Hamburger menu -->
+            <!-- ************** -->
+            <div class="header-ham">
+                <div class="header_-ham-content">
+                    <ul class="header-ham-links">
+                        <li class="header-ham-link">
+                            <a href="../index.html"> Accueil </a>
+                        </li>
+                        <li class="header-ham-link">
+                            <a href="#overview"> Vue d'ensemble </a>
+                        </li>
+                        <li class="header-ham-link">
+                            <a href="#tools"> Outils </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- *********-->
+            <!-- Overview -->
+            <!-- ******** -->
+            <section class="project-ovw dark">
+                <div class="project-ovw-content">
+                  <h1 class="heading">ArgentBank</h1>
+                  <div class="project-ovw-info">
+                    <p class="text">
+                        Cette page est une vue d’ensemble du projet, des outils utilisés ainsi que les liens vers le site du projet et le(s) document(s) annexe(s).
+                    </p>
+                  </div>
+                  <div class="project-ovw-btn">
+                    <a href="https://github.com/Jlde54/argentbank-website-front/tree/master/README.md" class="btn btn-bg" target="_self" rel="noreferrer">Lien vers le projet</a>
+                    <a href="https://github.com/Jlde54/argentbank-website-front" class="btn btn-bg" target="_self" rel="noreferrer">&nbsp;&nbsp;&nbsp;Lien vers GitHub&nbsp;&nbsp;&nbsp;</a>
+                    <!-- <a href="../assets/P11-ArgentBank/swagger.txt" class="btn btn-bg" target="_self" rel="noreferrer">Fichier Swagger</a> -->
+                  </div>
+                </div>
+            </section>
+            
+            <section class="project-details">
+                <div class="main-container">
+                    <div class="project-details-content">
+                        <div class="project-details-img-cont">
+                            <img src="../images/P11-ArgenBank/ArgentBank2.png" alt="Project Image" class="project-details-img">
+                        </div>
+                        <div id="overview" class="project-details-content-main">
+                            <div class="project-details-desc">
+                                <h2 class="project-details-content-title">Vue d'ensemble du projet</h2>
+                                <p class="project-details-desc-paragraph">
+                                    J'ai intégré une nouvelle banque en ligne "Argent Bank" comme développeur front-end pour mettre en place un tableau de bord des utilisateurs.
+                                </p>
+                                <p class="project-details-desc-paragraph">
+                                    <u>Ma mission pour ce projet était de</u> :<br>
+                                    ● Créer l’application web complète et responsive avec React.<br>
+                                    ● Utiliser Redux pour gérer le state de l'ensemble de l'application.<br>
+                                    ● Mettre en place des bonnes pratiques de Green Code.<br>
+                                    ● Implémenter les fonctionnalités suivantes :<br>
+                                    - L'utilisateur peut visiter la page d'accueil.<br>
+                                    - L'utilisateur peut se connecter au système.<br>
+                                    - L'utilisateur peut se déconnecter du système.<br>
+                                    - L'utilisateur ne peut voir les informations relatives à son propre profil qu'après s'être connecté avec succès.<br>
+                                    - L’utilisateur ne peut pas modifier son nom ni son prénom, mais il peut modifier son pseudo.<br>
+                                    ● Mettre en place des bonnes pratiques de Green Code.<br>
+                                    ● Imaginer les routes API qui devraient être modélisées du côté back-end afin :<br>
+                                    - de visualiser toutes leurs transactions pour le mois en cours, groupées par compte ;<br>
+                                    - de visualiser les détails d'une transaction dans une autre vue ;<br>
+                                    - d'ajouter, de modifier ou de supprimer des informations sur une transaction
+
+                                </p>
+                                <p class="project-details-desc-paragraph">
+                                    <u>Les étapes du projet</u> :<br>
+                                    ● Installer l’application en local :<br>
+                                        - forker le repo original du projet<br>
+                                        - lancer le projet ;<br>
+                                        - remplir la base de données ;<br>
+                                        - tester les routes dans Postman<br>
+                                        - Vérifier que vous avez des versions de Node ou de mongoDB compatibles<br>
+                                        - Mettre en place l’application et intégrer les maquettes :<br>
+                                        - Créer notre application au travers de Create React App, et transformer le code HTML/CSS en React.<br>
+                                        - Installer React Router pour gérer la navigation dans l’application.<br>
+                                        - Découper les différentes pages en composants pertinents.<br>
+                                    ● Mettez en place le state global avec Redux et la connection de l’utilisateur :<br>
+                                    - Avoir la gestion de la connexion utilisateur fonctionnelle dans l'application, et les premiers éléments présents dans le store de Redux.<br>
+                                    ● Modifiez le nom d’utilisateur via le formulaire.<br>
+                                    ● Traiter l’appel à l’API pour réaliser l’actualisation.<br>
+                                    ● Gestion des transactions : analyse des maquettes<br>
+                                        - Lister toutes les actions nécessaires au bon fonctionnement de l’API afin de connaître tous les endpoints à créer.<br>
+                                    ● Gestion des transactions : Écrire les différents endpoints dans le fichier Swagger<br>
+                                        - Suivre la nomenclature Swagger 2.0.
+                                </p>
+                                <p class="project-details-desc-paragraph">
+                                    Le projet se basait sur des <u>éléments préparés au préalable</u> :<br>
+                                    ● le HTML statique et le CSS pour la page d'accueil, la page de connexion et la page de profil.<br>
+                                    ● les routes API dont on a besoin (voir la documentation Swagger à l'intérieur du repo).<br>
+                                    ● les GitHub issues : détails pour chacune des fonctionnalités.<br>
+                                    ● le Repository GitHub existant.
+                                </p>
+                                <p class="project-details-desc-paragraph">
+                                    <u>Les compétences évaluées</u> étaient :<br>
+                                    ● Afficher les données du back end sur l'interface via des appels API<br>
+                                    ● Configurer des routes API pour la communication client / serveur<br>
+                                    ● Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front
+                                </p>
+                                <p class="project-details-desc-paragraph">
+                                    Pour mener à bien ce projet, j'ai suivi les <u>cours OpenClassrooms</u> suivants :<br>
+                                    ● Utiliser le state manager Redux pour gérer l’état de vos applications<br>
+                                    ● Appliquez les principes du Green IT dans votre entreprise<br>
+                                    ● Adoptez les API REST dans vos projets web                               
+                                </p>
+                                <p class="project-details-desc-paragraph">
+                                    N’hésitez pas à consulter le code, le visuel du projet et le fichier Swagger en visitant les liens correspondants <u>ci-dessous</u>.
+                                </p>
+                            </div>
+                            <!-- ****** -->
+                            <!-- Skills -->
+                            <!-- ****** -->
+                            <div id="tools" class="section">
+                                <div class="boxed">
+                                    <h2 class="project-details-content-title">Outils utilisés</h2>
+                                    <div class="flex gap20">
+                                        <div class="skill">
+                                            <img src="../images/html-logo.png" alt="html-logo.png">
+                                            <h3 class="text-center">HTML5</h3>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="../images/css3-logo.png" alt="css3-logo.png">
+                                            <h3 class="text-center">CSS3</h3>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="../images/javascript-logo.png" alt="javascript-logo.png">
+                                            <h3 class="text-center">Javascript</h3>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="../images/git-logo.png" alt="git-logo.png">
+                                            <h3 class="text-center">Git</h3>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="../images/github-logo.png" alt="github-logo.png">
+                                            <h3 class="text-center">GitHub</h3>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="../images/react-logo-1.png" alt="react-logo-1.png">
+                                            <h3 class="text-center">React</h3>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="../images/redux-logo.png" alt="redux-logo.png">
+                                            <h3 class="text-center">Redux</h3>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="../images/vscode.png" alt="vscode-alt.png">
+                                            <h3 class="text-center">VSC</h3>
+                                        </div>
+                                        <div class="skill">
+                                            <img src="../images/figma-logo.png" alt="figma-logo.png">
+                                            <h3 class="text-center">Figma</h3>
+                                        </div>
+                                        <!-- <div class="skill">
+                                            <img src="../images/node-sass-logo.png" alt="node-sass-logo.png">
+                                            <h3 class="text-center">Sass</h3>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-details-links">
+                                <a href="https://github.com/Jlde54/argentbank-website-front/tree/master/README.md" class="btn btn--med btn--theme project-details-links-btn" target="_self" rel="noreferrer">Lien vers le projet</a>
+                                <a href="https://github.com/Jlde54/argentbank-website-front" class="btn btn--med btn--theme project-details-links-btn" target="_self" rel="noreferrer">&nbsp;&nbsp;&nbsp;Lien vers GitHub&nbsp;&nbsp;&nbsp;</a>
+                                <a href="../assets/P11-ArgentBank/swagger.txt" class="btn btn--med btn--theme project-details-links-btn" target="_self" rel="noreferrer">Fichier Swagger</a>
+                                <a href="/" class="btn btn--med btn--theme-inv project-details-links-btn">Retour</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- ****** -->
+        <!-- Footer -->
+        <!-- ****** -->
+        <footer class="footer dark">
+            <div class="main-container">  
+                <div class="footer-copyright">
+                    © Copyright 2024. Made by Jean-Luc DANGOTTE
+                </div>
+            </div>
+        </footer>
+        <script src="../index.js"></script>
+    </body>
+</html>
