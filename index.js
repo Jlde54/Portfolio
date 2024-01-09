@@ -21,6 +21,6 @@ headerHamLink.forEach(link => {
 const headerLogoName = document.querySelector('.header-logo-name')
 
 headerLogoName.addEventListener('click', () => {
-  location.href = '/'
+  location.href = './index.html'
 })
 
