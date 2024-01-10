@@ -17,10 +17,3 @@ headerHamLink.forEach(link => {
     headerNavHamClose.classList.add('display-none')
   })
 })
-
-// const headerLogoName = document.querySelector('.header-logo-name')
-
-// headerLogoName.addEventListener('click', () => {
-//   location.href = './index.html'
-// })
-
