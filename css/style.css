@@ -353,7 +353,7 @@ a {
 }
 
 .btn--med {
-    padding: 1.5rem 5rem;
+    padding: 1.5rem 1rem;
     font-size: 1.6rem;
 }
 
@@ -728,12 +728,7 @@ textarea {
 .project-details-links-btn {
     margin-right: 2rem;
     margin-bottom: 2rem;
-}
-
-@media only screen and (max-width: 56.25em) {
-    /* .project-details-links-btn {
-        margin-bottom: 2rem;
-    } */
+    width: 40%;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -751,7 +746,7 @@ textarea {
         font-size: 2.4rem;
     }
     .project-details-links-btn {
-        margin-right: 0;
+        /* margin-right: 0; */
         width: 70%;
         text-align: center;
     }
