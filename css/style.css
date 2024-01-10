@@ -243,7 +243,7 @@ a {
     transition: transform .3s;
 }
 
-.btn--theme-inv {
+.btn-theme-inv {
     color: #111;
     background: #fff;
     border: 2px solid #7843e9;
@@ -347,12 +347,12 @@ a {
     margin-bottom: 4rem;
 }
 
-.btn--theme {
+.btn-theme {
     background: #7843e9;
     color: #fff;
 }
 
-.btn--med {
+.btn-med {
     padding: 1.5rem 1rem;
     font-size: 1.6rem;
 }
@@ -371,10 +371,6 @@ a {
     border-radius: 5px;
     font-weight: 600;
     color: #666;
-}
-
-.w14 {
-    width: 14%;
 }
 
 .section {
@@ -543,52 +539,6 @@ a {
     background-position: center;
 }
 
-.head-section-intro--lt {
-    color: #333;
-}
-
-.contact-form-container {
-    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
-    background: #fff;
-    padding: 4rem;
-    margin-top: 6rem;
-    max-width: 80rem;
-    text-align: right;
-    width: 95%;
-    border-radius: 5px;
-    margin: 5rem auto 0 auto;
-}
-
-.contact-form-field {
-    margin-bottom: 4rem;
-}
-
-.contact-form-label {
-    color: #666;
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    display: block;
-    text-align: left;
-}
-
-.contact-form-input {
-    color: #333;
-    padding: 2rem;
-    width: 100%;
-    border: 1px solid #ebebeb;
-    font-size: 1.6rem;
-    letter-spacing: 0;
-    background: #f0f0f0;
-    border-radius: 5px;
-    font-weight: 600;
-}
-
-textarea {
-    resize: none;
-}
-
 .mail-icon {
     font-size: 35px;
     margin-top: 15px;
@@ -598,19 +548,6 @@ textarea {
 
 .mail-icon:hover {
     transform: translateY(-3px);
-}
-
-@media only screen and (max-width: 56.25em) {
-   
-}
-
-@media only screen and (max-width: 37.5em) {
-    .contact-form-container {
-        padding: 3rem;
-    }
-    .contact-form-field {
-        margin-bottom: 3rem;
-    }
 }
 
 /* ********/
@@ -713,10 +650,6 @@ textarea {
     line-height: 1.7;
     color: #666;
     margin-bottom: 2rem;
-}
-
-.project-details-tools-used {
-    margin: 0 0 7rem 0;
 }
 
 .project-details-links {
